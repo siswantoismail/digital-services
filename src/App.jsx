@@ -1,6 +1,8 @@
 import "./App.css";
 import ServicesGrid from "./components/ServicesGrid";
 import SpecialOffers from "./components/SpecialOffers";
+import Activity from "./components/Activity";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       </div>
       <ServicesGrid />
       <SpecialOffers />
+      <Activity />
+      <Navbar />
     </fragment>
   );
 }
