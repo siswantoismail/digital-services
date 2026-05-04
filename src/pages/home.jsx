@@ -1,10 +1,8 @@
-import "./App.css";
-import ServicesGrid from "./components/ServicesGrid";
-import SpecialOffers from "./components/SpecialOffers";
-import Activity from "./components/Activity";
-import Navbar from "./components/Navbar";
-
-function App() {
+import ServicesGrid from "../components/ServicesGrid";
+import SpecialOffers from "../components/SpecialOffers";
+import Activity from "../components/Activity";
+import Navbar from "../components/Navbar";
+export default function Home() {
   return (
     <fragment className="flex flex-col h-screen mx-6">
       <header className="flex justify-between  my-3 items-center shadow-2xs p-1">
@@ -34,5 +32,3 @@ function App() {
     </fragment>
   );
 }
-
-export default App;
